@@ -133,15 +133,3 @@ managed_services: klipper
 virtualenv: /home/andrei/klippy-env/
 requirements: wiki/requirements.txt
 system_dependencies: wiki/packages.json
-
-# HelixScreen Update Manager
-# Added by HelixScreen installer - enables one-click updates from Mainsail/Fluidd
-[update_manager helixscreen]
-type: zip
-channel: stable
-repo: prestonbrown/helixscreen
-path: /home/andrei/helixscreen
-managed_services: helixscreen
-persistent_files:
-    config/helixconfig.json
-    config/.disabled_services
