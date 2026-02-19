@@ -124,3 +124,13 @@ virtualenv = /home/andrei/klippy-env/
 requirements = wiki/requirements.txt
 system_dependencies = wiki/packages.json
 
+[update_manager helixscreen]
+type = zip
+channel = stable
+repo = prestonbrown/helixscreen
+path = /home/andrei/helixscreen
+managed_services = helixscreen
+persistent_files = 
+	config/helixconfig.json
+	config/.disabled_services
+
