@@ -125,12 +125,12 @@ requirements = wiki/requirements.txt
 system_dependencies = wiki/packages.json
 
 [update_manager helixscreen]
-type = zip
+type = web
 channel = stable
 repo = prestonbrown/helixscreen
 path = /home/andrei/helixscreen
-managed_services = helixscreen
 persistent_files = 
 	config/helixconfig.json
+	config/helixscreen.env
 	config/.disabled_services
 
