@@ -28,6 +28,15 @@ cors_domains =
 channel = dev
 refresh_interval = 168
 
+[update_manager klipper_tmc_autotune]
+type = git_repo
+channel = dev
+path = ~/klipper_tmc_autotune
+origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
+managed_services = klipper
+primary_branch = main
+install_script = install.sh
+
 [spoolman]
 server = http://192.168.1.234:7912
 sync_rate = 5
