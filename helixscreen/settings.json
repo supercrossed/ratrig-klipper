@@ -44,7 +44,7 @@
   },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 1
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
@@ -660,7 +660,7 @@
     }
   },
   "update": {
-    "dismissed_version": "0.98.9"
+    "dismissed_version": "0.99.84"
   },
   "wizard_completed": true
 }
