@@ -1,6 +1,9 @@
 {
   "active_printer_id": "default",
-  "config_version": 17,
+  "appearance": {
+    "show_widget_labels": true
+  },
+  "config_version": 23,
   "dark_mode": false,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -8,9 +11,11 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 1,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "screensaver_type": 0,
     "sleep_sec": 0,
-    "theme": "cupertino",
+    "theme": "solarized",
     "time_format": 1
   },
   "gcode_viewer": {
@@ -25,6 +30,7 @@
       "d": 0.0,
       "e": 1.0,
       "f": 0.0,
+      "recheck_pending": false,
       "valid": false
     },
     "jitter_threshold": 5,
@@ -39,9 +45,6 @@
     "type": "usb"
   },
   "language": "en",
-  "led": {
-    "selected_strips": null
-  },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 2
@@ -64,11 +67,6 @@
         "total": 120
       }
     ]
-  },
-  "printer": {
-    "leds": {
-      "startup_brightness": null
-    }
   },
   "printers": {
     "default": {
@@ -103,11 +101,13 @@
           "assigned": true,
           "bed_temp": 65,
           "brand": "",
+          "catalog_id": "",
           "color_rgb": 0,
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 1000.0,
+          "product_name": "",
+          "remaining_weight_g": 697.1508178710938,
           "spool_name": "PLA - Black PLA",
           "spoolman_id": 18,
           "total_weight_g": 1000.0
@@ -225,7 +225,6 @@
             "controller_fan chamber_fan"
           ],
           "filament_sensors": [
-            "filament_switch_sensor toolhead_sensor",
             "filament_switch_sensor Turtle_1_expanded",
             "filament_switch_sensor Turtle_1_compressed",
             "filament_switch_sensor lane1_prep",
@@ -249,7 +248,8 @@
             "neopixel nebula_neopixel",
             "neopixel top",
             "neopixel side",
-            "neopixel Chamber"
+            "neopixel Chamber",
+            "neopixel toolhead_leds"
           ],
           "sensors": [
             "temperature_sensor toolboard",
@@ -265,7 +265,7 @@
             "tmc5160 stepper_z2",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-06-26T22:58:22Z"
+          "timestamp": "2026-11-11T02:10:40Z"
         },
         "optional": []
       },
@@ -286,7 +286,6 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
-        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
@@ -632,9 +631,7 @@
           ]
         }
       },
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
@@ -660,7 +657,7 @@
     }
   },
   "update": {
-    "dismissed_version": "0.99.84"
+    "dismissed_version": "1.0.9"
   },
   "wizard_completed": true
 }

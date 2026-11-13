@@ -38,7 +38,7 @@ primary_branch = main
 install_script = install.sh
 
 [spoolman]
-server = http://192.168.1.234:7912
+server = http://192.168.1.102:7912
 sync_rate = 5
 
 [update_manager mainsail-config]
