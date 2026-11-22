@@ -82,6 +82,36 @@
         "total": 120
       },
       {
+        "phases": {},
+        "timestamp": 1773355997,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1773508212,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1775592854,
+        "total": 120
+      },
+      {
+        "phases": {},
+        "timestamp": 1773355997,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1773508212,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1775592854,
+        "total": 120
+      },
+      {
         "phases": {
           "7": 200,
           "8": 54
@@ -89,6 +119,16 @@
         "temp_bucket": 2,
         "timestamp": 1794598265,
         "total": 979,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 93,
+          "8": 116
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795328418,
+        "total": 983,
         "window": 1
       }
     ]
@@ -290,7 +330,7 @@
             "tmc5160 stepper_z2",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-11-22T06:02:56Z"
+          "timestamp": "2026-11-22T20:50:55Z"
         },
         "optional": []
       },
@@ -673,10 +713,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.8420919179916382
+        "heat_rate": 0.8059425950050354
       },
       "heater_bed": {
-        "heat_rate": 4.185347557067871
+        "heat_rate": 4.475350856781006
       }
     }
   },
