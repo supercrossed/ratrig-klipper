@@ -67,51 +67,6 @@
         "total": 120
       },
       {
-        "phases": {},
-        "timestamp": 1773355997,
-        "total": 125
-      },
-      {
-        "phases": {},
-        "timestamp": 1773508212,
-        "total": 125
-      },
-      {
-        "phases": {},
-        "timestamp": 1775592854,
-        "total": 120
-      },
-      {
-        "phases": {},
-        "timestamp": 1773355997,
-        "total": 125
-      },
-      {
-        "phases": {},
-        "timestamp": 1773508212,
-        "total": 125
-      },
-      {
-        "phases": {},
-        "timestamp": 1775592854,
-        "total": 120
-      },
-      {
-        "phases": {},
-        "timestamp": 1773355997,
-        "total": 125
-      },
-      {
-        "phases": {},
-        "timestamp": 1773508212,
-        "total": 125
-      },
-      {
-        "phases": {},
-        "timestamp": 1775592854,
-        "total": 120
-      },
-      {
         "phases": {
           "7": 200,
           "8": 54
@@ -129,6 +84,61 @@
         "temp_bucket": 2,
         "timestamp": 1795328418,
         "total": 983,
+        "window": 1
+      },
+      {
+        "phases": {},
+        "timestamp": 1773355997,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1773508212,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1775592854,
+        "total": 120
+      },
+      {
+        "phases": {},
+        "timestamp": 1773355997,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1773508212,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1775592854,
+        "total": 120
+      },
+      {
+        "phases": {},
+        "timestamp": 1773355997,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1773508212,
+        "total": 125
+      },
+      {
+        "phases": {},
+        "timestamp": 1775592854,
+        "total": 120
+      },
+      {
+        "phases": {
+          "7": 142,
+          "8": 51
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795562123,
+        "total": 1058,
         "window": 1
       }
     ]
@@ -330,7 +340,7 @@
             "tmc5160 stepper_z2",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-11-24T02:57:26Z"
+          "timestamp": "2026-11-25T00:25:09Z"
         },
         "optional": []
       },
@@ -713,10 +723,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6126012206077576
+        "heat_rate": 0.8467123508453369
       },
       "heater_bed": {
-        "heat_rate": 5.070749759674072
+        "heat_rate": 4.813241481781006
       }
     }
   },
