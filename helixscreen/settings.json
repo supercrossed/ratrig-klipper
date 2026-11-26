@@ -340,7 +340,7 @@
             "tmc5160 stepper_z2",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-11-25T04:07:41Z"
+          "timestamp": "2026-11-26T15:50:00Z"
         },
         "optional": []
       },
@@ -723,10 +723,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.5510044097900391
+        "heat_rate": 0.8092939853668213
       },
       "heater_bed": {
-        "heat_rate": 4.7172112464904785
+        "heat_rate": 4.561532497406006
       }
     }
   },
